@@ -1,0 +1,9 @@
+#+title: simple-cross-platfrom-stack
+#+author: NWS99
+
+* Overview
+This Repository is a first try of me using fastapi as well as flet to build a working cross platform app with as little effort and code as possible
+
+* Use Case
+This is just a learning project and not meant for any specific use case till now.
+I just want to expore a cross platform GUI framework and a backend framework both written in python.
