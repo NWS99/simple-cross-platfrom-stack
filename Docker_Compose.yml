@@ -1,0 +1,12 @@
+services:
+    db:
+        image: postgres
+
+    orm:
+        build: /scripts/backend/database/.
+    
+    frontend:
+        build: /scripts/frontend/.
+
+    webhooks:
+        build: /scripts/backend/functions/.

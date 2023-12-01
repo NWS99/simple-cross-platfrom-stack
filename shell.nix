@@ -28,6 +28,7 @@
     packages = with pkgs;
     [
       docker
+      docker-compose
       (python310.withPackages needed-packages)
       python310Packages.pip
       python310Packages.virtualenv
