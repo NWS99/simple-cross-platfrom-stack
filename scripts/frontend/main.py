@@ -1,18 +1,14 @@
 import flet as ft
+from frontend.custom_controls import \
+    CustomView
+
 
 def main(page: ft.Page):
 
     page.title = "Basic GUI"
 
-    page.add(
-        ft.Row(
-            [
-                ft.Text("one"),
-                ft.Text("two"),
-                ft.Text("three")
-            ]
+    page.views.append(CustomView("test", page=page).build())
+    page.update()
 
-        )
-    )
 
 ft.app(target=main)
