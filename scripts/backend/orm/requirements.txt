@@ -1,6 +1,0 @@
-fastapi
-pydantic
-pyodbc
-SQLAlchemy
-uvicorn[standard]
-fastapi-crudrouter
