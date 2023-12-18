@@ -7,3 +7,9 @@ This Repository is a first try of me using fastapi as well as flet to build a wo
 * Use Case
 This is just a learning project and not meant for any specific use case till now.
 I just want to expore a cross platform GUI framework and a backend framework both written in python.
+
+* Usage
+
+** Setup
+To use test this project properly, it is suggested to install the nix shell on your system.
+When installed switch to the root directory of this project and run ~nix-shell~.
