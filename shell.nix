@@ -17,5 +17,13 @@ let
       doCheck = false;
     }
   ];
-  my-python = pkgs.python310.withPackages python-packages;
-in my-python.env
+in
+  
+pkgs.mkShell {
+  nativeBuildInputs = with pkgs.buildPackages; 
+    [
+      docker
+      docker-compose
+      (python310.withPackages python-packages)
+    ];
+}
