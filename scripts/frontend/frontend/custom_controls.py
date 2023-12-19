@@ -1,4 +1,5 @@
 import flet as ft
+from frontend.global_settings import SETTINGS
 
 
 class CustomView(ft.UserControl):
@@ -15,7 +16,10 @@ class CustomView(ft.UserControl):
                     [
                         ft.Column(
                             [
-                                ft.Text("1")
+                                ft.Text(
+                                    "1", 
+                                    color=SETTINGS["general"]["color"]
+                                )
                             ]
                         ),
                         ft.Column(
