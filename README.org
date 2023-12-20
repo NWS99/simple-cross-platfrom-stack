@@ -1,15 +1,28 @@
 #+title: simple-cross-platfrom-stack
 #+author: NWS99
-
 * Overview
 This Repository is a first try of me using fastapi as well as flet to build a working cross platform app with as little effort and code as possible
-
 * Use Case
 This is just a learning project and not meant for any specific use case till now.
 I just want to expore a cross platform GUI framework and a backend framework both written in python.
-
 * Usage
-
 ** Setup
 To use test this project properly, it is suggested to install the nix shell on your system.
 When installed switch to the root directory of this project and run ~nix-shell~.
+* Interesting Additions
+** [[FastAPI-Amis-Admin][fastapi https://github.com/amisadmin/fastapi-amis-admin]]
+** [[FastAPI-Login][https://github.com/MushroomMaula/fastapi_login]]
+** [[Row Level Permissions for FastAPI][https://github.com/holgi/fastapi-permissions]]
+** [[AuthenticationX][https://github.com/yezz123/AuthX]]
+** [[FastAPI Security][https://github.com/jacobsvante/fastapi-security]]
+** [[FastAPI simple security][https://github.com/mrtolkien/fastapi_simple_security]]
+** [[FastAPI Users][https://github.com/fastapi-users/fastapi-users]]
+** [[Fastapi-SQLA][https://github.com/dialoguemd/fastapi-sqla]]
+** [[ORM][https://github.com/encode/orm]]
+** [[SQLModel][https://sqlmodel.tiangolo.com/]]
+** [[Databases][https://github.com/encode/databases]]
+** [[Pydantic-SQLAlchemy][https://github.com/tiangolo/pydantic-sqlalchemy]]
+** [[fastapi_profiler][https://github.com/sunhailin-Leo/fastapi_profiler]]
+** [[fastapi-versioning][https://github.com/DeanWay/fastapi-versioning]]
+** [[SQLAlchemy Admin for FastAPI][https://github.com/aminalaee/sqladmin]]
+
