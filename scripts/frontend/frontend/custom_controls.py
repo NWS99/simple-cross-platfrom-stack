@@ -2,7 +2,7 @@ import flet as ft
 from frontend.global_settings import SETTINGS
 
 
-class CustomView(ft.UserControl):
+class UniformView(ft.UserControl):
 
     def __init__(self, route: str, page: ft.Page):
 
@@ -42,7 +42,21 @@ class CustomView(ft.UserControl):
         return self.control
 
 
-class CustomAppbar(ft.UserControl):
+class UniformAppbar(ft.UserControl):
+
+    def __init__(self):
+
+        super().__init__()
+
+
+class UniformButton(ft.UserControl):
+
+    def __init__(self):
+
+        super().__init__()
+
+
+class UniformContainer(ft.UserControl):
 
     def __init__(self):
 
