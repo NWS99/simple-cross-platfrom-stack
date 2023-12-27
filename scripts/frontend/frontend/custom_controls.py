@@ -48,6 +48,12 @@ class UniformAppbar(ft.UserControl):
 
         super().__init__()
 
+        self.control_ = ft.Appbar()
+
+    def build(self):
+
+        return self.control_
+
 
 class UniformButton(ft.UserControl):
 
@@ -55,9 +61,21 @@ class UniformButton(ft.UserControl):
 
         super().__init__()
 
+        self.control_ = ft.ElevatedButton()
+
+    def build(self):
+
+        return self.control_
+
 
 class UniformContainer(ft.UserControl):
 
     def __init__(self):
 
         super().__init__()
+
+        self.control_ = ft.Container()
+
+    def build(self):
+
+        return self.control_
