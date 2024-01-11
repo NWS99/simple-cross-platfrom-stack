@@ -1,3 +1,7 @@
+"""
+should later be used for packaging
+"""
+
 from setuptools import setup, find_packages
 
 setup(
