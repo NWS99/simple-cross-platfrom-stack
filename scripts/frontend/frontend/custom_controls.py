@@ -79,3 +79,15 @@ class UniformContainer(ft.UserControl):
     def build(self):
 
         return self.control_
+
+class UniformNavrail(ft.UserControl):
+
+    def __init__(self):
+
+        super().__init__()
+
+        self.control_ = ft.Navrail()
+
+    def build(self):
+
+        return self.control_

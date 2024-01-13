@@ -22,3 +22,4 @@ class CreateMessage(BaseModel):
 
 class Message(BaseModel):
     key: int
+
